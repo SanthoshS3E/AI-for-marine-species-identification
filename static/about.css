@@ -1,0 +1,67 @@
+/* General Reset for the About Page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #f8f9fa; /* Light gray background to match other pages */
+    color: #333; /* Default text color */
+  }
+  
+  /* Header Section */
+  header {
+    background: #343a40;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 2px solid #495057;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* Main Section */
+  main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* About Content Section */
+  .about-container {
+    text-align: left;
+    margin: 1rem 0;
+    line-height: 1.8;
+  }
+  
+  .about-container h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #495057;
+  }
+  
+  .about-container p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Footer Section */
+  footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+    border-top: 2px solid #495057;
+    margin-top: 3rem;
+  }
+  

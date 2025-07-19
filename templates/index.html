@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Classification</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="/about" class="nav-link">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero">
+            <h1>Welcome to Fish Classifier</h1>
+            <p>Upload an image of a fish, and our AI model will identify it for you along with interesting facts!</p>
+        </section>
+
+        <!-- Form Section -->
+        <section class="form-section">
+            <form action="/predict" method="post" enctype="multipart/form-data">
+                <label for="file">Select an image to upload:</label>
+                <input type="file" id="file" name="file" accept="image/*" required>
+                <button type="submit">Classify Fish</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Marine species Identification Project </p>
+    </footer>
+</body>
+</html>
