@@ -1,8 +1,8 @@
 # 🐠 AI for Marine Species Identification
 
-
-<img width="1917" height="898" alt="Screenshot 2025-07-23 163459" src="https://github.com/user-attachments/assets/1a80a7c8-4bb2-4259-bac5-4d67209aa0b4" />
 <img width="1915" height="906" alt="Screenshot 2025-07-23 163429" src="https://github.com/user-attachments/assets/e50f13b5-45eb-4835-a0d1-b1f4ba0aa183" />
+<img width="1917" height="898" alt="Screenshot 2025-07-23 163459" src="https://github.com/user-attachments/assets/1a80a7c8-4bb2-4259-bac5-4d67209aa0b4" />
+
 
 A deep learning-powered web app that identifies marine fish species from images using a custom-trained CNN model. Built for researchers and marine enthusiasts to simplify species classification and access essential fish information.
 
